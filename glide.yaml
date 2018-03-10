@@ -1,24 +1,24 @@
 package: github.com/intelsdi-x/snap-plugin-lib-go
 import:
-- package: github.com/sirupsen/logrus
+- package: github.com/sirupsen/logrus.git
   version: ^1.0.2
-- package: github.com/golang/protobuf
+- package: github.com/golang/protobuf.git
   subpackages:
   - proto
-- package: github.com/julienschmidt/httprouter
+- package: github.com/julienschmidt/httprouter.git
   version: ^1.1.0
-- package: github.com/urfave/cli
+- package: github.com/urfave/cli.git
   version: ^1.19.1
-- package: golang.org/x/net
+- package: github.com/golang/net.git
   subpackages:
   - context
-- package: google.golang.org/grpc
+- package: github.com/golang/grpc.git
   version: ^1.4
   subpackages:
   - credentials
   - metadata
 testImport:
-- package: github.com/smartystreets/goconvey
+- package: github.com/smartystreets/goconvey.git
   version: ^1.6.2
   subpackages:
   - convey
